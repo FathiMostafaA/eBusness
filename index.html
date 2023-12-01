@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- BOOTSTRAP STYLESCHEET -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- FONTAWSOME ICON -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- START MAIN CSS STYLESHEET -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- START DROP SHADOW -->
+    <link rel="stylesheet" href="css/dropshadow.css">
+    <!-- ICON LINK -->
+    <link rel="icon" href="img/favicon.png">
+    <!-- START GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>eBusiness</title>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#navbar">
+    <!-- ===== START NAVBAR ===== -->
+  <nav class="navbar navbar-expand-lg fixed-top ">
+    <div class="container">
+      <a class="navbar-brand logo fw-bold" href="#home"><span>e</span>Business</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#team">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#blog">Blog</a>
+          </li>
+          <li class="nav-item position-relative dropdown">
+            <a class="nav-link" href="#">Drop Down  <i class="fa-solid fa-chevron-down" style="font-size: 12px;"></i></a>
+            <ul>
+              <li>Drop Down 1</li>
+              <li class="deepdropdown">Deep Drop Down <i class="fa-solid fa-angle-right" style="margin-left: 30px; font-size: 12px;"></i>
+                <ul>
+                  <li>Deep Drop Down 1</li>
+                  <li>Deep Drop Down 2</li>
+                  <li>Deep Drop Down 3</li>
+                  <li>Deep Drop Down 4</li>
+                  <li>Deep Drop Down 5</li>
+                </ul>
+              </li>
+              <li>Drop Down 2</li>
+              <li>Drop Down 3</li>
+              <li>Drop Down 4</li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- ===== START HOME SECTION ===== -->
+  <section id="home" class="home">
+  <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner" >
+    <div class="carousel-item active data-bs-interval="100" style="	background: linear-gradient(rgba(0,0,0,0.7) , rgba(0,0,0,0.7)) , url(../img/hero-carousel/1.jpg);">
+        <div class="info position-absolute top-50 start-50 translate-middle text-white text-center">
+          <h3 class=" fs-4">The Best Business Information</h3>
+          <p>We're In The Business Of Helping You Start Your Business</p>
+          <a href="#about" class="btn rounded-pill">Get Started</a>
+        </div>
+    </div>
+    <div class="carousel-item data-bs-interval="2000"" style="	background: linear-gradient(rgba(0,0,0,0.7) , rgba(0,0,0,0.7)) , url(../img/hero-carousel/2.jpg);">
+        <div class="info position-absolute top-50 start-50 translate-middle text-white text-center">
+          <h3 class=" fs-4">At vero eos et accusamus</h3>
+          <p>Helping Business Security & Peace of Mind for Your Family</p>
+          <a href="#about" class="btn rounded-pill">Get Started</a>
+        </div>
+    </div>
+    <div class="carousel-item" style="	background: linear-gradient(rgba(0,0,0,0.7) , rgba(0,0,0,0.7)) , url(../img/hero-carousel/3.jpg);">
+        <div class="info position-absolute top-50 start-50 translate-middle text-white text-center">
+          <h3 class=" fs-4">Temporibus autem quibusdam</h3>
+          <p>Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem</p>
+          <a href="#about" class="btn rounded-pill">Get Started</a>
+        </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+  </section>
+  <!-- ===== START ABOUT SECTION ===== -->
+  <section id="about" class="about py-5">
+    <div class="container">
+      <div class="section-title">
+        <h2>About EBusiness</h2>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <div class="img">
+            <img src="img/about/1.jpg" class=" img-fluid" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <div class="about-info">
+            <a href="#home">PROJECT MAINTENANCE</a>
+            <p>Redug Lagre dolor sit amet, consectetur adipisicing elit. Itaque quas officiis iure aspernatur sit adipisci quaerat unde at nequeRedug Lagre dolor sit amet, consectetur adipisicing elit. Itaque quas officiis iure</p>
+            <ul>
+              <li><i class="fa-solid fa-check"></i> Interior design Package</li>
+              <li><i class="fa-solid fa-check"></i> Building House</li>
+              <li><i class="fa-solid fa-check"></i> Reparing of Residentail Roof</li>
+              <li><i class="fa-solid fa-check"></i> Renovaion of Commercial Office</li>
+              <li><i class="fa-solid fa-check"></i> Make Quality Products</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===== START SERVICES SECTION ===== -->
+  <section id="services" class="services py-5">
+    <div class="container">
+      <div class="section-title">
+        <h2>Our Services</h2>
+      </div>
+      <div class="row gy-5">
+        <div class="col-lg-4 col-md-6">
+          <div class="box text-center">
+            <a href="#home">
+              <i class="fa-solid fa-briefcase"></i>
+            </a>
+            <h4>Expert Coder</h4>
+            <p>will have to make sure the prototype looks finished by inserting text or photo.make sure the prototype looks finished by.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="box text-center">
+            <a href="#home">
+              <i class="fa-solid fa-list-check"></i>
+            </a>
+            <h4>Creative Designer</h4>
+            <p>will have to make sure the prototype looks finished by inserting text or photo.make sure the prototype looks finished by.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="box text-center">
+            <a href="#home">
+              <i class="fa-solid fa-signal"></i>
+            </a>
+            <h4>Wordpress Developer</h4>
+            <p>will have to make sure the prototype looks finished by inserting text or photo.make sure the prototype looks finished by.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="box text-center">
+            <a href="#home">
+              <i class="fa-solid fa-binoculars"></i>
+            </a>
+            <h4>Social Marketer</h4>
+            <p>will have to make sure the prototype looks finished by inserting text or photo.make sure the prototype looks finished by.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="box text-center">
+            <a href="#home">
+              <i class="fa-regular fa-sun"></i>
+            </a>
+            <h4>Seo Expart</h4>
+            <p>will have to make sure the prototype looks finished by inserting text or photo.make sure the prototype looks finished by.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="box text-center">
+            <a href="#home">
+              <i class="fa-solid fa-calendar-days"></i>
+            </a>
+            <h4>24/7 Support</h4>
+            <p>will have to make sure the prototype looks finished by inserting text or photo.make sure the prototype looks finished by.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===== START TEAM SECTION ===== -->
+  <section id="team" class="team py-5">
+    <div class="container">
+      <div class="section-title">
+        <h2>Our Special Team</h2>
+      </div>
+      <div class="row gy-4">
+        <div class="col-lg-3 col-md-6">
+          <div class="team-member text-center border border-1">
+            <div class="team-img position-relative">
+              <img src="img/team/1.jpg" class=" img-fluid" alt="">
+              <div class="social position-absolute">
+                <ul>
+                  <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                  <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="team-content">
+              <h4>Jhon Mickel</h4>
+              <p>Seo</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="team-member text-center border border-1">
+            <div class="team-img position-relative">
+              <img src="img/team/2.jpg" class=" img-fluid" alt="">
+              <div class="social position-absolute">
+                <ul>
+                  <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                  <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="team-content">
+              <h4>Jhon Mickel</h4>
+              <p>Seo</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="team-member text-center border border-1">
+            <div class="team-img position-relative">
+              <img src="img/team/3.jpg" class=" img-fluid" alt="">
+              <div class="social position-absolute">
+                <ul>
+                  <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                  <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="team-content">
+              <h4>Jhon Mickel</h4>
+              <p>Seo</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="team-member text-center border border-1">
+            <div class="team-img position-relative">
+              <img src="img/team/4.jpg" class=" img-fluid" alt="">
+              <div class="social position-absolute">
+                <ul>
+                  <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                  <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="team-content">
+              <h4>Jhon Mickel</h4>
+              <p>Seo</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===== START REVIEWS SECTION ===== -->
+  <section class="reviews-area py-5">
+    <div class=" container-fluid">
+          <div class="row">
+      <div class="col-lg-6 col-md-12 p-lg-0">
+        <img src="img/about/2.jpg" class="img-fluid" alt="">
+      </div>
+      <div class="col-lg-6 col-md-12 p-lg-0 reviews py-sm-5">
+        <div class="content h-100 d-flex flex-column justify-content-center">
+          <h3>WORKING WITH US</h3>
+          <h4>WEB DESIGN, READY HOME, CONSTRUCTION AND CO-OPERATE OUTSTANDING BUILDINGS.</h4>
+          <a href="#" class="btn rounded-pill">CONTACT US</a>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- ===== START PORTFOLIO SECTION ===== -->
+  <section id="portfolio" class="portfolio py-5">
+    <div class="container">
+      <div class="section-title">
+        <h2>Our Portfolio</h2>
+      </div>
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6">
+          <div class="box position-relative overflow-hidden">
+            <div class="img-box">
+              <img src="img/portfolio/1.jpg" class=" img-fluid" alt="pincel">
+            </div>
+            <div class="box-content z-1 position-absolute start-50 translate-middle text-center">
+              <a href="#" class="fs-4 fw-bold text-white">BUSINESS CITY</a>
+              <p class="text-light">Web Development</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="box position-relative overflow-hidden">
+            <div class="img-box">
+              <img src="img/portfolio/2.jpg" class=" img-fluid" alt="pincel">
+            </div>
+            <div class="box-content z-1 position-absolute start-50 translate-middle text-center">
+              <a href="#" class="fs-4 fw-bold text-white">BLUE SEA</a>
+              <p class="text-light">Photosho</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="box position-relative overflow-hidden">
+            <div class="img-box">
+              <img src="img/portfolio/3.jpg" class=" img-fluid" alt="pincel">
+            </div>
+            <div class="box-content z-1 position-absolute start-50 translate-middle text-center">
+              <a href="#" class="fs-4 fw-bold text-white">BEAUTIFUL NATURE</a>
+              <p class="text-light">Web Design</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="box position-relative overflow-hidden">
+            <div class="img-box">
+              <img src="img/portfolio/4.jpg" class=" img-fluid" alt="pincel">
+            </div>
+            <div class="box-content z-1 position-absolute start-50 translate-middle text-center">
+              <a href="#" class="fs-4 fw-bold text-white">CREATIVE TEAM</a>
+              <p class="text-light">Web Design</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="box position-relative overflow-hidden">
+            <div class="img-box">
+              <img src="img/portfolio/5.jpg" class=" img-fluid" alt="pincel">
+            </div>
+            <div class="box-content z-1 position-absolute start-50 translate-middle text-center">
+              <a href="#" class="fs-4 fw-bold text-white">BEAUTIFUL FLOWER</a>
+              <p class="text-light">Web Development</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="box position-relative overflow-hidden">
+            <div class="img-box">
+              <img src="img/portfolio/6.jpg" class=" img-fluid" alt="pincel">
+            </div>
+            <div class="box-content z-1 position-absolute start-50 translate-middle text-center">
+              <a href="#" class="fs-4 fw-bold text-white">NIGHT HILL</a>
+              <p class="text-light">Web Desgin</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===== START PRICE SECTION ===== -->
+  <section class="price py-5">
+    <div class="container">
+      <div class="section-title">
+        <h2>Priceing Table</h2>
+      </div>
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6">
+          <div class="box border border-1">
+            <div class="box-header text-center">
+              <h4>BASIC</h4>
+              <p>$80 / MONTH</p>
+            </div>
+            <div class="box-body">
+              <ul>
+                <li><i class="fa-solid fa-check"></i> Online system</li>
+                <li><i class="fa-solid fa-x"></i> Full access</li>
+                <li><i class="fa-solid fa-check"></i> Free apps</li>
+                <li><i class="fa-solid fa-check"></i> Multiple slider</li>
+                <li class="disabled"><i class="fa-solid fa-x"></i> Free domin</li>
+                <li class="disabled"><i class="fa-solid fa-x"></i> Support unlimited</li>
+                <li><i class="fa-solid fa-check"></i> Payment online</li>
+                <li><i class="fa-solid fa-x"></i> Cash back</li>
+              </ul>
+            </div>
+            <div class="box-footer text-center">
+              <button class="btn">SIGN UP NOW</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="box border border-1 topSale overflow-hidden">
+            <div class="box-header text-center position-relative">
+              <h4>STANDARD</h4>
+              <p>$110 / MONTH</p>
+            </div>
+            <div class="box-body">
+              <ul>
+                <li><i class="fa-solid fa-check"></i> Online system</li>
+                <li><i class="fa-solid fa-check"></i> Full access</li>
+                <li><i class="fa-solid fa-check"></i> Free apps</li>
+                <li><i class="fa-solid fa-check"></i> Multiple slider</li>
+                <li class="disabled"><i class="fa-solid fa-x"></i> Free domin</li>
+                <li><i class="fa-solid fa-check"></i> Support unlimited</li>
+                <li><i class="fa-solid fa-check"></i> Payment online</li>
+                <li class="disabled"><i class="fa-solid fa-x"></i> Cash back</li>
+              </ul>
+            </div>
+            <div class="box-footer text-center">
+              <button class="btn">SIGN UP NOW</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="box border border-1">
+            <div class="box-header text-center">
+              <h4>PREMIUM</h4>
+              <p>$150 / MONTH</p>
+            </div>
+            <div class="box-body">
+              <ul>
+                <li><i class="fa-solid fa-check"></i> Online system</li>
+                <li><i class="fa-solid fa-check"></i> Full access</li>
+                <li><i class="fa-solid fa-check"></i> Free apps</li>
+                <li><i class="fa-solid fa-check"></i> Multiple slider</li>
+                <li><i class="fa-solid fa-check"></i> Free domin</li>
+                <li><i class="fa-solid fa-check"></i> Support unlimited</li>
+                <li><i class="fa-solid fa-check"></i> Payment online</li>
+                <li><i class="fa-solid fa-check"></i> Cash back</li>
+              </ul>
+            </div>
+            <div class="box-footer text-center">
+              <button class="btn">SIGN UP NOW</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===== START TESTIMONIALS SECTION ===== -->
+  <section id="testimonials" class="testimonials position-relative">
+    <div class="container">
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="4" aria-label="Slide 5"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active data-bs-interval="10000">
+      <div class="box text-center">
+        <img src="img/testimonials/testimonials-1.jpg" alt="face">
+        <h3>Saul Goodman</h3>
+        <h4>Ceo & Founder</h4>
+        <p><i class="fa-solid fa-quote-left fs-3 me-2"></i> 
+          Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+          <i class="fa-solid fa-quote-right fs-3 ms-2"></i></p>
+      </div>
+    </div>
+    <div class="carousel-item data-bs-interval="20000">
+      <div class="box text-center">
+        <img src="img/testimonials/testimonials-2.jpg" alt="face">
+        <h3>Sara Wilsson</h3>
+        <h4>Designer</h4>
+        <p><i class="fa-solid fa-quote-left fs-3 me-2"></i> 
+          Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+          <i class="fa-solid fa-quote-right fs-3 ms-2"></i></p>
+      </div>
+    </div>
+    <div class="carousel-item data-bs-interval="30000" >
+      <div class="box text-center">
+        <img src="img/testimonials/testimonials-3.jpg" alt="face">
+        <h3>Jena Karlis</h3>
+        <h4>Store Owner</h4>
+        <p><i class="fa-solid fa-quote-left fs-3 me-2"></i> 
+          Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+          <i class="fa-solid fa-quote-right fs-3 ms-2"></i></p>
+      </div>
+    </div>
+    <div class="carousel-item data-bs-interval="40000">
+      <div class="box text-center">
+        <img src="img/testimonials/testimonials-4.jpg" alt="face">
+        <h3>Matt Brandon</h3>
+        <h4>Freelancer</h4>
+        <p><i class="fa-solid fa-quote-left fs-3 me-2"></i> 
+          Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+          <i class="fa-solid fa-quote-right fs-3 ms-2"></i></p>
+      </div>
+    </div>
+    <div class="carousel-item data-bs-interval="50000"">
+      <div class="box text-center">
+        <img src="img/testimonials/testimonials-5.jpg" alt="face">
+        <h3>John Larson</h3>
+        <h4>Entrepreneur</h4>
+        <p><i class="fa-solid fa-quote-left fs-3 me-2"></i> 
+          Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+          <i class="fa-solid fa-quote-right fs-3 ms-2"></i></p>
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+  </section>
+  <!-- ===== START NEWS SECTION ===== -->
+  <section class="news py-5">
+    <div class="container">
+      <div class="section-title">
+        <h2>Latest News</h2>
+      </div>
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6">
+          <div class="box">
+            <div class="box-img">
+              <img src="img/blog/1.jpg" class=" img-fluid" alt="">
+            </div>
+            <div class="box-content">
+              <div class="links">
+                <a href="">13 comments</a>
+                <span>2016-03-05 / 09:10:16</span>
+              </div>
+              <div class="content">
+                <a href="#">Assumenda repud eum veniam</a>
+                <p>Lorem ipsum dolor sit amet conse adipis elit Assumenda repud eum veniam optio modi sit explicabo nisi magnam quibusdam.sit amet conse adipis elit Assumenda repud eum veniam optio modi sit explicabo nisi magnam quibusdam.</p>
+                <button class="btn rounded-pill">READ MORE</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="box">
+            <div class="box-img">
+              <img src="img/blog/2.jpg" class=" img-fluid" alt="">
+            </div>
+            <div class="box-content">
+              <div class="links">
+                <a href="">13 comments</a>
+                <span>2016-03-05 / 09:10:16</span>
+              </div>
+              <div class="content">
+                <a href="#">Assumenda repud eum veniam</a>
+                <p>Lorem ipsum dolor sit amet conse adipis elit Assumenda repud eum veniam optio modi sit explicabo nisi magnam quibusdam.sit amet conse adipis elit Assumenda repud eum veniam optio modi sit explicabo nisi magnam quibusdam.</p>
+                <button class="btn rounded-pill">READ MORE</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="box">
+            <div class="box-img">
+              <img src="img/blog/3.jpg" class=" img-fluid" alt="">
+            </div>
+            <div class="box-content">
+              <div class="links">
+                <a href="">13 comments</a>
+                <span>2016-03-05 / 09:10:16</span>
+              </div>
+              <div class="content">
+                <a href="#">Assumenda repud eum veniam</a>
+                <p>Lorem ipsum dolor sit amet conse adipis elit Assumenda repud eum veniam optio modi sit explicabo nisi magnam quibusdam.sit amet conse adipis elit Assumenda repud eum veniam optio modi sit explicabo nisi magnam quibusdam.</p>
+                <button class="btn rounded-pill">READ MORE</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===== START SUBSCRIBE SECTION ===== -->
+  <section class="subscribe">
+    <div class="container">
+      <div class="rwo">
+        <div class="col-lg-12 text-center">
+          <h3 class=" d-inline-block">Welcome to our eBusiness company</h3>
+          <a href="#" class="btn d-inline-block rounded-pill">GET A QUOTE</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===== START CONTACT SECTION ===== -->
+  <section id="contact" class="contact py-5">
+    <div class="container">
+      <div class="section-title">
+        <h2>Contact Us</h2>
+      </div>
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 text-center">
+          <div class="social">
+            <i class="fa-solid fa-mobile-button"></i>
+            <p>Call: +1 5589 55488 55<br>Monday-Friday (9am-5pm)</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 text-center">
+          <div class="social">
+            <i class="fa-solid fa-envelope"></i>
+            <p>Email: info@example.com<br>Web: www.example.com</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 text-center">
+          <div class="social">
+            <i class="fa-solid fa-location-dot"></i>  
+            <p>Location: A108 Adam Street<br>NY 535022, USA</p>
+          </div>
+        </div>
+      </div>
+      <div class="row gy-4">
+        <div class="col-lg-6">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3411.0495517991085!2d29.974500075364293!3d31.247051560595224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f5db8a16c3c77d%3A0x24c465e134255814!2sRoute%20IT%20Training%20Center!5e0!3m2!1sen!2seg!4v1701370315382!5m2!1sen!2seg" width="600" height="450" style="border:0;width:100%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="col-lg-6">
+          <form>
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <input type="text" placeholder="Subject">
+            <textarea name="" id="" placeholder="Message"></textarea>
+            <button class="btn rounded-pill border border-1">SEND MESSAGE</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===== START FOOTER SECTION ===== -->
+  <section class="footer">
+    <div class="container">
+      <div class="py-4">
+              <div class="row gy-4">
+        <div class="col-lg-4 col-md-6">
+          <div class="first-box">
+            <h2><a href="#home"><span>e</span>Business</a></h2>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
+            <ul>
+              <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="second-box">
+            <h4>information</h4>
+            <p class="pragragh">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+            <p><span>Tel: </span>+123 456 789</p>
+            <p><span>Email: </span>contact@example.com</p>
+            <p><span>Working Hours: </span>9am-5pm</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="last-box">
+            <h4>INSTAGRAM</h4>
+              <div class="box-img">
+                <a href="#"><img src="img/portfolio/1.jpg" class=" img-fluid" alt=""></a>
+                <a href="#"><img src="img/portfolio/2.jpg" class=" img-fluid" alt=""></a>
+                <a href="#"><img src="img/portfolio/3.jpg" class=" img-fluid" alt=""></a>
+                <a href="#"><img src="img/portfolio/4.jpg" class=" img-fluid" alt=""></a>
+                <a href="#"><img src="img/portfolio/5.jpg" class=" img-fluid" alt=""></a>
+                <a href="#"><img src="img/portfolio/6.jpg" class=" img-fluid" alt=""></a>
+              </div>
+              <div class="clear-fill" style="clear: both;"></div>
+            </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="container py-3">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <p>© Copyright eBusiness. All Rights Reserved</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
